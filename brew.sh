@@ -80,22 +80,51 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
+brew install antigen
 #brew install exiv2
 brew install git
 brew install git-lfs
 brew install gs
+brew install htop
+brew install httpie --HEAD
 brew install imagemagick --with-webp
+brew install jq
 brew install lua
 brew install lynx
+brew install mas-cli
+brew install ncdu
 brew install p7zip
 brew install pigz
 brew install pv
+brew install rcm
 brew install rename
 brew install rlwrap
 brew install ssh-copy-id
+ brew install terminal-notifier
 brew install tree
+brew install tmux
 brew install vbindiff
+brew insttall wget
+brew install whalebrew
 brew install zopfli
+brew install zsh
 
+# Insstall Development tools
+brew install docker
+brew install docker-composse
+ brew install python
+brew install rbenv
+brew install nvm
+brew install git
+# Install Apps from Cask
+brew cask install 1password
+brew cask install chrome
+brew cask install firefox
+brew cask install iterm2
+brew cask install spotify
+brew cask install visual-studio-code
+brew cask install wireshark
+brew cask install slack
+brew cask install zoom
 # Remove outdated versions from the cellar.
 brew cleanup
